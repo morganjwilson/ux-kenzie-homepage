@@ -1,5 +1,6 @@
+/* Base Styles*/
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 h1 {
@@ -13,11 +14,24 @@ h2 {
   font-size: 110%;
 }
 
+h3 {
+  text-align: center;
+  font-size: 15pt;
+}
+
+.submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 15px;
+}
+/* Layout Styles */
+
 nav {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-
 }
 
 nav li {
@@ -38,9 +52,9 @@ nav li {
   width: 8em;
   text-align: center;
   display: inline-block;
-} 
+}
 
-.signup-form form input[type=submit] {
+.signup-form form input[type="submit"] {
   border: none;
   background-color: blue;
   text-decoration: none !important;
@@ -50,4 +64,22 @@ nav li {
   width: 8em;
   text-align: center;
   display: inline-block;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: block;
+  text-align: center;
+  padding: 30px;
+}
+.form-content {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
